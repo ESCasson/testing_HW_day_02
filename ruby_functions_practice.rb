@@ -90,3 +90,18 @@ def number_to_short_month_name(month_number)
     "Dec"
   end
 end
+
+def volume_of_cube(side_length)
+  side_length ** 3
+end
+
+def volume_of_sphere(radius)
+  pi = 3.1416
+  four_over_three = 4.0 / 3.0
+  radsqr = radius ** 3
+  return four_over_three * pi * radsqr
+end
+
+def fahrenheit_to_celsius(fahrenheit)
+  ((fahrenheit - 32) * 5.0 / 9.0).round(4)
+end
